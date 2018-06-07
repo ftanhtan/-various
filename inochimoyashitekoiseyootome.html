@@ -12,26 +12,56 @@
     .kakegoe {
       color: #999;
     }
-    .kaede { 
-      color: #33d5ac;
+    .kaede {
+      color: #83c54c;
     }
-    .heart { 
-      background-color: #e44e8e;
+    .heart {
+      color: #a42eee;
     }
-    .miyu { 
-      background-color: #01aaa5;
+    .miyu {
+      color: #01aad5;
     }
-    .usamin { 
+    .usamin {
       color: #e64a79;
     }
-    .sanae { 
-      color: #e94d1a;
+    .sanae {
+      color: #e99d1a;
+    }
+    .miyu.usamin {
+      background: linear-gradient(to right, rgba(1,170,213,1) 0%,rgba(230,74,121,1) 100%);
+      color: #fff;
+      padding: 4px;
+      text-shadow: #000 1px 1px 2px;
+    }
+    .usamin.heart {
+      background: linear-gradient(to right, rgba(230,74,121,1) 0%,rgba(164,46,238,1) 100%);
+      color: #fff;
+      padding: 4px;
+      text-shadow: #000 1px 1px 2px;
+    }
+    .sanae.miyu {
+      background: linear-gradient(to right,rgba(233,157,26,1) 0%, rgba(1,170,213,1) 100%);
+      color: #fff;
+      padding: 4px;
+      text-shadow: #000 1px 1px 2px;
+    }
+    .kaede.sanae {
+      background: linear-gradient(to right, rgba(131,197,76,1) 0%,rgba(233,157,26,1) 100%);
+      color: #fff;
+      padding: 4px;
+      text-shadow: #000 1px 1px 2px;
     }
   </style>
 </head>
 <body>
   <section>
-    <span class="kaede">■ 高垣楓</span> <span class="heart">■ 佐藤心</span> <span class="miyu">■ 三船美優</span> <span class="usamin">■ 安部菜々</span> <span class="sanae">■ 片桐早苗</span> 
+  <div><span class="kaede">■ 高垣楓</span> <span class="heart">■ 佐藤心</span> <span class="miyu">■ 三船美優</span> <span class="usamin">■ 安部菜々</span> <span class="sanae">■ 片桐早苗</span></div>
+  <div>
+    <span class="kaede sanae">■ 高垣楓 + ■ 片桐早苗</span> 
+    <span class="sanae miyu">■ 片桐早苗 + ■ 三船美優</span> 
+    <span class="miyu usamin">■ 三船美優 + ■ 安部菜々</span> 
+    <span class="usamin heart">■ 安部菜々 + ■ 佐藤心</span> 
+  </div>
   </section>
   <section>
     <div class="usamin">恋は命の花だから</div>
@@ -54,7 +84,7 @@
   </section>
   <section>
     <div>命燃やして　恋せよ乙女</div>
-    <div class="miyu usamin">花の命は　長いけど</div>
+    <div><span class="miyu usamin">花の命は　長いけど</span></div>
     <div>命燃やして　恋せよ乙女</div>
     <div class="heart">心は　駆け足</div>
   </section>
@@ -68,7 +98,7 @@
     <div class="heart">揺れて　揺れて</div>
     <div class="heart">寂しさへと下り坂</div>
     <div><span class="miyu">冷たい指を</span>　<span class="kaede">絡めましょう</span></div>
-    <div><span class="miyu">白い</span><span class="kaede">月も</span>　雲に隠れるから</div>
+    <div><span class="miyu">白い</span> <span class="kaede">月も</span>　雲に隠れるから</div>
   </section>
   <section>
     <div>命燃やして　恋せよ乙女</div>
@@ -80,7 +110,7 @@
     <div class="usamin">揺れて　揺れて</div>
     <div class="usamin">くちびるへの上り坂</div>
     <div><span class="sanae">行くの？</span><span class="miyu">戻る？</span><span class="sanae miyu">言わぬが花</span></div>
-    <div><span class="usamin heart">恋の</span><span class="kaede miyu">道は</span>　二度と戻れないわ</div>
+    <div><span class="usamin heart">恋の</span> <span class="kaede sanae">道は</span>　二度と戻れないわ</div>
   </section>
   <section>
     <div>命燃やして　恋せよ乙女</div>
@@ -90,4 +120,6 @@
   </section>
 </body>
 </html>
+
+
 
